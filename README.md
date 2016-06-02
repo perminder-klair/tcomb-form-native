@@ -10,6 +10,7 @@ npm install tcomb-form-native
 
 # Supported react-native versions
 
+- tcomb-form-native ^0.5: react-native >= 0.25.0
 - tcomb-form-native ^0.4: react-native >= 0.20.0
 - tcomb-form-native ^0.3: react-native < 0.13.0
 
@@ -933,6 +934,22 @@ The following standard options are available (see http://facebook.github.io/reac
 - `minuteInterval`,
 - `mode`,
 - `timeZoneOffsetInMinutes`
+
+## Hidden Component
+
+For any component, you can set the field with the `hidden` option:
+
+```js
+var options = {
+  fields: {
+    name: {
+      hidden: true
+    }
+  }
+};
+```
+
+This will completely skip the rendering of the component, while the default value will be available for validation purposes.
 
 # Customizations
 

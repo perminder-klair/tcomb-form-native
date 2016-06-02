@@ -10,6 +10,30 @@
 
 **Note**: Gaps between patch versions are faulty/broken releases.
 
+## v0.5.1
+
+- **New Feature**
+    - Add onChange handler to TextInput, fix #168 (@gcanti)
+
+## v0.5.0
+
+- **Breaking Change**
+    - upgrade to `tcomb-validation` ^3.0.0 (@gcanti)
+    - React API must be now required from `react` package (@jebschiefer)
+- **New Feature**
+    - Updated support for TextInput props for RN>=0.25 (@alvaromb)
+
+## v0.4.4
+
+- **Bug Fix**
+    - Revert to export method from 869dd50 (https://github.com/gcanti/tcomb-form-native/pull/160)
+
+## v0.4.3
+
+- **New Feature**
+    - support hot reload, fix #132 (thanks @justim, @alvaromb)
+    - add `hidden` option [docs](https://github.com/gcanti/tcomb-form-native#hidden-component) (thanks @miqmago)
+
 ## v0.4.2
 
 - **Bug Fix**
